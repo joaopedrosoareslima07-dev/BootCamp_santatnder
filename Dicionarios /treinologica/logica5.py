@@ -21,7 +21,14 @@ for letra in caracter:
             break 
         
         else:
-            lista.pop()    
+            
+            lista.pop()     
+            
+if len(lista) == 0:
+    print('True')
+    
+else:
+    print('False')
     
     
     

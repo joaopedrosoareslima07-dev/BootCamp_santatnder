@@ -18,7 +18,7 @@ class carro(veiculo):
 
 class caminhao(veiculo):
     def __init__(self, cor, placa, ano, qtd_rodas, num_porta):
-         super().__init__(cor, placa, ano, qtd_rodas)
+         super().__init__(cor, placa, ano, qtd_rodas)   #O super é para quando queremos incializar as caracteristas da classe mãe 
 
          self.num_porta = num_porta
 

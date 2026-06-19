@@ -34,3 +34,7 @@ print(f"Marca: {meu_eletrico.roda}")
 print(f"Placa: {meu_eletrico.cor}")
 print(f"Bateria: {meu_eletrico.ano}")
     
+    
+carrinho = Carro('Chevrolet', 2008)
+
+print(carrinho.__dict__)

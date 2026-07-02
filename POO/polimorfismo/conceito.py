@@ -1,0 +1,2 @@
+#polimorfismo significa ter muitas formas
+#A palavra vem do grego (poli = muitas, morphismo = formas). No Python, isso significa que objetos de classes diferentes podem responder ao mesmo método de maneiras diferentes.

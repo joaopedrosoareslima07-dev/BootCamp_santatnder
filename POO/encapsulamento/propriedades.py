@@ -31,3 +31,8 @@ print(pessoa.titular)
 pessoa.saldo = 100000
 
 print(pessoa.saldo)
+
+
+
+
+#TODA VEZ QUE FORMOS ALTERAR UM VALOR, TEREMOS QUE PÔR UM _ PARA NÃO DA LOOPING INFINITO

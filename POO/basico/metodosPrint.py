@@ -1,4 +1,4 @@
-#POO - Clase e objeto
+#POO - Classe e objeto
 
 #É um paradigma de programação que usa "objetos" para representar dados e comportamentos.
 
@@ -25,6 +25,11 @@ class carro:
     def __str__(self):
         return f'{self.__class__.__name__}:  {' | '.join([f'{chave} : {valor}'  for chave, valor in self.__dict__.items()])}'
     
+    
+    def mostrar(*most):
+        for x in most:
+            print(x)
+    
 carro1 = carro('Celta', '123-abc', 'Atual', 2008, 'Vermelho')
 
 
@@ -33,10 +38,12 @@ carro1 = carro('Celta', '123-abc', 'Atual', 2008, 'Vermelho')
 
 #Formas de impressão.
 
-print(carro1.__dict__)  #imprimir o conteúdo da classe carro1 em um dicionário.
+#print(carro1.__dict__)  #imprimir o conteúdo da classe carro1 em um dicionário.
 
-print(carro1)  #Aqui criamos uma função dentro da nossa classe que retorna os valores do objeto.
+#print(carro1)  #Aqui criamos uma função dentro da nossa classe que retorna os valores do objeto.
 
-print(f'Marca: {carro1.marca} | Modelo: {carro1.modelo} | Placa: {carro1.placa} | Ano: {carro1.ano} | Cor: {carro1.cor}') #Aqui a gente cria uma f-string para mostrar todos os parametros do objeto.
+#print(f'Marca: {carro1.marca} | Modelo: {carro1.modelo} | Placa: {carro1.placa} | Ano: {carro1.ano} | Cor: {carro1.cor}') #Aqui a gente cria uma f-string para mostrar todos os parametros do objeto.
 
-print(carro1)
+#print(carro1)
+
+carro.mostrar(carro1)

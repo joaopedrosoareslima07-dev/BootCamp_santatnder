@@ -16,5 +16,5 @@ class filho(pai, mae):
     def __init__(self, nome, idade, cidade):
         super().__init__(nome = nome, idade= idade) #Aqui ele herdou nome e idade das classes mães 
         
-        self.cidade = cidade 
+        self.cidade = cidade #Adicionamos um novo atributo 
     

@@ -38,12 +38,12 @@ carro1 = carro('Celta', '123-abc', 'Atual', 2008, 'Vermelho')
 
 #Formas de impressão.
 
-#print(carro1.__dict__)  #imprimir o conteúdo da classe carro1 em um dicionário.
+print(carro1.__dict__)  #imprimir o conteúdo da classe carro1 em um dicionário.
 
-#print(carro1)  #Aqui criamos uma função dentro da nossa classe que retorna os valores do objeto.
+print(carro1)  #Aqui criamos uma função dentro da nossa classe que retorna os valores do objeto.
 
-#print(f'Marca: {carro1.marca} | Modelo: {carro1.modelo} | Placa: {carro1.placa} | Ano: {carro1.ano} | Cor: {carro1.cor}') #Aqui a gente cria uma f-string para mostrar todos os parametros do objeto.
+print(f'Marca: {carro1.marca} | Modelo: {carro1.modelo} | Placa: {carro1.placa} | Ano: {carro1.ano} | Cor: {carro1.cor}') #Aqui a gente cria uma f-string para mostrar todos os parametros do objeto.
 
-#print(carro1)
+print(carro1)
 
 carro.mostrar(carro1)
